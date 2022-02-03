@@ -1,6 +1,6 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\RelationManager;
+namespace ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\RelationManager;
 
 use Filament\Forms;
 use Filament\Forms\Components\TextInput;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions;
+namespace ewald1976\FilamentSpatieRolesPermissions;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Althinect\FilamentSpatieRolesPermissions\Skeleton\SkeletonClass
+ * @see \ewald1976\FilamentSpatieRolesPermissions\Skeleton\SkeletonClass
  */
 class FilamentSpatieRolesPermissionsFacade extends Facade
 {

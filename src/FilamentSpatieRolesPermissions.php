@@ -1,6 +1,6 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions;
+namespace ewald1976\FilamentSpatieRolesPermissions;
 
 class FilamentSpatieRolesPermissions
 {

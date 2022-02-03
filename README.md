@@ -1,8 +1,8 @@
 # Description
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/althinect/filament-spatie-roles-permissions.svg?style=flat-square)](https://packagist.org/packages/althinect/filament-spatie-roles-permissions)
-[![Total Downloads](https://img.shields.io/packagist/dt/althinect/filament-spatie-roles-permissions.svg?style=flat-square)](https://packagist.org/packages/althinect/filament-spatie-roles-permissions)
-![GitHub Actions](https://github.com/althinect/filament-spatie-roles-permissions/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ewald1976/filament-spatie-roles-permissions.svg?style=flat-square)](https://packagist.org/packages/ewald1976/filament-spatie-roles-permissions)
+[![Total Downloads](https://img.shields.io/packagist/dt/ewald1976/filament-spatie-roles-permissions.svg?style=flat-square)](https://packagist.org/packages/ewald1976/filament-spatie-roles-permissions)
+![GitHub Actions](https://github.com/ewald1976/filament-spatie-roles-permissions/actions/workflows/main.yml/badge.svg)
 
 This plugin is built on top of [Spatie's Permission](https://spatie.be/docs/laravel-permission/v5/introduction) package. 
 
@@ -11,7 +11,7 @@ This plugin is built on top of [Spatie's Permission](https://spatie.be/docs/lara
 You can install the package via composer:
 
 ```bash
-composer require althinect/filament-spatie-roles-permissions
+composer require ewald1976/filament-spatie-roles-permissions
 ```
 
 Since the package depends on [Spatie's Permission](https://spatie.be/docs/laravel-permission/v5/introduction) package. You have to publish the migrations by running:

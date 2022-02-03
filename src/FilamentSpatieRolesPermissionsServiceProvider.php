@@ -1,9 +1,9 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions;
+namespace ewald1976\FilamentSpatieRolesPermissions;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource;
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource;
 use Filament\PluginServiceProvider;
 use Illuminate\Support\ServiceProvider;
 

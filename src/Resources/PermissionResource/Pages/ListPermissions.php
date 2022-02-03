@@ -1,10 +1,10 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
+namespace ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
 
-// use Althinect\FilamentSpatieRolesPermissions\Resource\PermissionResource;
+// use ewald1976\FilamentSpatieRolesPermissions\Resource\PermissionResource;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource;
 use Filament\Forms\Components\Select;
 use Filament\Resources\Pages\ListRecords;
 use Filament\Tables\Actions\BulkAction;

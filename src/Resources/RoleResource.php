@@ -1,12 +1,12 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources;
+namespace ewald1976\FilamentSpatieRolesPermissions\Resources;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\CreateRole;
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\EditRole;
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\ListRoles;
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\ViewRole;
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\RelationManager\PermissionRelationManager;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\CreateRole;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\EditRole;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\ListRoles;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\ViewRole;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\RelationManager\PermissionRelationManager;
 use Filament\Forms\Components\BelongsToManyMultiSelect;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Form;

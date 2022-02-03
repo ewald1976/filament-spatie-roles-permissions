@@ -1,8 +1,8 @@
 <?php 
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages;
+namespace ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource;
 use Filament\Resources\Pages\ViewRecord;
 
 class ViewRole extends ViewRecord

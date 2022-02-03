@@ -1,12 +1,12 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources;
+namespace ewald1976\FilamentSpatieRolesPermissions\Resources;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\CreatePermission;
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\EditPermission;
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ListPermissions;
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ViewPermission;
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\RelationManager\RoleRelationManager;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\CreatePermission;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\EditPermission;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ListPermissions;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ViewPermission;
+use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\RelationManager\RoleRelationManager;
 use Filament\Forms\Components\BelongsToManyMultiSelect;
 use Filament\Forms\Components\BelongsToManyCheckboxList;
 use Filament\Forms\Components\Select;
