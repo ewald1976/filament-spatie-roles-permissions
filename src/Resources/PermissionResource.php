@@ -8,6 +8,7 @@ use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\
 use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ViewPermission;
 use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\RelationManager\RoleRelationManager;
 use Filament\Forms\Components\BelongsToManyMultiSelect;
+use Filament\Forms\Components\BelongsToManyCheckboxList;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Form;
@@ -49,7 +50,7 @@ class PermissionResource extends Resource
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.name')),
                 TextInput::make('guard_name')
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.guard_name')),
-                BelongsToManyMultiSelect::make('roles')
+                BelongsToManyCheckboxList::make('roles')
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.roles'))
                     ->relationship('roles', 'name')
             ]);
