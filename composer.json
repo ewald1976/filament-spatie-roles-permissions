@@ -1,17 +1,17 @@
 {
-    "name": "althinect/filament-spatie-roles-permissions",
+    "name": "ewald1976/filament-spatie-roles-permissions",
     "description": "",
     "keywords": [
-        "althinect",
+        "ewald1976",
         "filament-spatie-roles-permissions"
     ],
-    "homepage": "https://github.com/althinect/filament-spatie-roles-permissions",
+    "homepage": "https://github.com/ewald1976/filament-spatie-roles-permissions",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Tharinda Rodrigo",
-            "email": "tharindarodrigo@gmail.com",
+            "name": "Ewald 1976",
+            "email": "farfarbeyond@protonmail.com",
             "role": "Developer"
         }
     ],
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Althinect\\FilamentSpatieRolesPermissions\\": "src"
+            "ewald1976\\FilamentSpatieRolesPermissions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Althinect\\FilamentSpatieRolesPermissions\\Tests\\": "tests"
+            "ewald1976\\FilamentSpatieRolesPermissions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Althinect\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsServiceProvider"
+                "ewald1976\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsServiceProvider"
             ],
             "aliases": {
-                "FilamentSpatieRolesPermissions": "Althinect\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsFacade"
+                "FilamentSpatieRolesPermissions": "ewald1976\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsFacade"
             }
         }
     }
