@@ -7,7 +7,6 @@ use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\
 use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ListPermissions;
 use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages\ViewPermission;
 use ewald1976\FilamentSpatieRolesPermissions\Resources\PermissionResource\RelationManager\RoleRelationManager;
-use Filament\Forms\Components\BelongsToManyMultiSelect;
 use Filament\Forms\Components\BelongsToManyCheckboxList;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
@@ -31,7 +30,7 @@ class PermissionResource extends Resource
     {
         return __('filament-spatie-roles-permissions::filament-spatie.section.permission');
     }
-
+ 
     protected static function getNavigationGroup(): ?string
     {
         return __('filament-spatie-roles-permissions::filament-spatie.section.roles_and_permissions');
