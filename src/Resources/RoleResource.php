@@ -10,6 +10,7 @@ use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\RelationMana
 use Filament\Forms\Components\BelongsToManyMultiSelect;
 use Filament\Forms\Components\BelongsToManyCheckboxList;
 use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Select;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
@@ -44,8 +45,11 @@ class RoleResource extends Resource
             ->schema([
                 TextInput::make('name')
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.name')),
-                TextInput::make('guard_name')
-                    ->label(__('filament-spatie-roles-permissions::filament-spatie.field.guard_name')),
+                    Select::make('guard_name')
+                    ->label(__('filament-spatie-roles-permissions::filament-spatie.field.guard_name'))->options([
+                        'web' => 'Web',
+                    ])->default('web')
+                    ->disablePlaceholderSelection(),
                     BelongsToManyCheckboxList::make('permissions')
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.permissions'))
                     ->relationship('permissions', 'name')
