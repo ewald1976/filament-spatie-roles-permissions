@@ -30,7 +30,7 @@ class PermissionResource extends Resource
     {
         return __('filament-spatie-roles-permissions::filament-spatie.section.permission');
     }
-
+ 
     protected static function getNavigationGroup(): ?string
     {
         return __('filament-spatie-roles-permissions::filament-spatie.section.roles_and_permissions');
