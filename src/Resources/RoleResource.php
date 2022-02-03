@@ -8,6 +8,7 @@ use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\ListRo
 use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages\ViewRole;
 use ewald1976\FilamentSpatieRolesPermissions\Resources\RoleResource\RelationManager\PermissionRelationManager;
 use Filament\Forms\Components\BelongsToManyMultiSelect;
+use Filament\Forms\Components\BelongsToManyCheckboxList;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
@@ -45,7 +46,7 @@ class RoleResource extends Resource
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.name')),
                 TextInput::make('guard_name')
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.guard_name')),
-                BelongsToManyMultiSelect::make('permissions')
+                    BelongsToManyCheckboxList::make('permissions')
                     ->label(__('filament-spatie-roles-permissions::filament-spatie.field.permissions'))
                     ->relationship('permissions', 'name')
             ]);
